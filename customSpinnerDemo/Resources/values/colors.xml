@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="content_color">#666666</color>
+    <color name="white_normal">#ffffffff</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_dedede">#dedede</color>
+  <color name="color_fbfbfb">#fbfbfb</color>
+    <color name="login_button_background">#71c297</color>
+</resources>

@@ -3,5 +3,17 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:paddingRight="20dp"
+     android:background="@color/color_ffffff"
+    android:paddingLeft="20dp">
+    <TextView
+        android:id="@+id/tv_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+        android:background="@color/color_dedede"
+        android:drawableRight="@drawable/icon_down"
+        android:padding="10dp"
+        android:textColor="@color/content_color"
+        android:textSize="20sp" />
 </LinearLayout>
