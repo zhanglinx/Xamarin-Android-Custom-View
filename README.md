@@ -9,4 +9,4 @@ customeSpinnerDemo：自定义的安卓的微调控件spinnner，原理使用的
 ### 3.xamarin android自定标题栏
 原理：使用组合原生控件实现可配置自定义属性、事件回调
 <br/>csdn链接：http://blog.csdn.net/kebi007/article/details/75365917<br/>
-效果：<br/>![image](https://github.com/MaChuZhang/Xamarin-Android-Custom-View/blob/master/screen/Screenshot_2017-07-19-21-41-34-740_CustomeTitleBa.png)
+效果：<br/>![image](https://github.com/MaChuZhang/Xamarin-Android-Custom-View/blob/master/screen/QQ%E5%9B%BE%E7%89%8720170719221726.png)
