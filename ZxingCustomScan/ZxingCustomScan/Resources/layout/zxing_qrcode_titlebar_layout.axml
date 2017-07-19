@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize">
+    <TextView
+        android:id="@+id/qrcode_btn_back"
+        android:layout_width="@dimen/dimen48"
+        android:layout_height="@dimen/dimen48"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/dimen20"
+        android:background="@drawable/selector_ic_back" />
+    <TextView
+        style="@style/text_center_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:text="扫一扫"
+        android:textColor="@color/color_white" />
+</RelativeLayout>

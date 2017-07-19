@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <SurfaceView
+            android:id="@+id/preview_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+    <!--自定义的布局界面-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include
+                androidLid="@+id/include1"
+                layout="@layout/zxing_qrcode_titlebar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen48" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+            <include
+                android:id="@+id/include2"
+                layout="@layout/zxing_qrcode_bottom_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen75" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

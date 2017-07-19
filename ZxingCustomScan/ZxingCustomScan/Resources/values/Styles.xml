@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<style name="text_center">
+  <item name="android:layout_centerInParent">true</item>
+  <item name="android:gravity">center</item>
+</style>
+
+<style name="text_center_title">
+  <item name="android:textColor">@color/color_white</item>
+  <item name="android:textSize">@dimen/dimen18</item>
+</style>
+</resources>
